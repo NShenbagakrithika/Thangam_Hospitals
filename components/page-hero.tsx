@@ -1,0 +1,1 @@
+export function PageHero({eyebrow,title,intro}:{eyebrow:string,title:string,intro:string}){return <section className="bg-ivory py-16 sm:py-20"><div className="container-pad"><p className="eyebrow">{eyebrow}</p><h1 className="section-title max-w-4xl">{title}</h1><p className="mt-5 max-w-2xl text-lg leading-8 text-muted">{intro}</p></div></section>}
